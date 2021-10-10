@@ -122,6 +122,7 @@ const controlAddRecipe = async function (data) {
 };
 
 const init = function () {
+	console.log('hacked');
 	bookmarkInit();
 	recipeView.addHandlerRecipe(controlRecipe);
 	recipeView.addServingsHandler(controlRecipeServings);
